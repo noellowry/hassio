@@ -1,0 +1,220 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "noellowry"
+                },
+                "id": "74b603a565414c93836ef6522c7aa977",
+                "user_id": "3d26ea7efe3949138c3837c8fb0a2bfb"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "laura"
+                },
+                "id": "b18a708676ed493c8f8e80c7f3405c5d",
+                "user_id": "dd9a773d4a3548a6bd1d6635d41e26c4"
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": null,
+                "created_at": "2019-09-10T21:41:49.539456+00:00",
+                "id": "bb0050d278b746e7b0abfd3300f48f86",
+                "jwt_key": "b1576049a0a735a0d2c2e14539daf8dd886b6fae63cfae80e1d92fb0d8ec4d2302ec3ac73c998a09e1789f4a607cdbae06b1022cf71da22976c50fa366d971a2",
+                "last_used_at": "2019-09-18T09:06:34.016558+00:00",
+                "last_used_ip": "172.30.32.2",
+                "token": "0b8a650d7e0ba3065f55048d4b91a3d09a0c45903821e17f3ee42d40318188ee501a6286c8be798d4a29d68ff05eea14dcb0f73c6ff1ee0abfdc642b29d2650c",
+                "token_type": "system",
+                "user_id": "d4fb7a5683fa426585f7909c1455b2dd"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.5.80:8123/",
+                "client_name": null,
+                "created_at": "2019-09-10T22:15:14.783770+00:00",
+                "id": "94cf979bbb0343dea0b10d134fa85987",
+                "jwt_key": "f862e5f6b4d29f9acbf26168c2e47f13afdd448ab93cd8749aba724ac7c2335a14bfa4775f9d350f9261db079280cf3dfb4883a47fb39ec030f849a08029b3d8",
+                "last_used_at": "2019-09-11T16:54:29.932332+00:00",
+                "last_used_ip": "192.168.5.32",
+                "token": "0d904d7e5abba5b791e3068f38c5ed876a5fdc6270f1ca4134bb48668dd18d48f4781ec79c687b24fa6762eadfe1c0a760e37416252db68f6bdb1ae4fb89077a",
+                "token_type": "normal",
+                "user_id": "3d26ea7efe3949138c3837c8fb0a2bfb"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.5.80:8123/",
+                "client_name": null,
+                "created_at": "2019-09-11T16:55:33.723905+00:00",
+                "id": "4c4d73f0b6df4feeaffa19d02bffcea9",
+                "jwt_key": "ab2194fe9daf04b79ba5f32ddd942017b083ea2de5aaf3338b79e93da1ea620a81582045f4bc66059f28a65a51ed251b8e6dff382719efc7664f68a8b0e1ac1d",
+                "last_used_at": "2019-09-22T17:09:22.417578+00:00",
+                "last_used_ip": "192.168.5.33",
+                "token": "7a6c1aa69355daeb5a87d8d9185dfce378016a00047e6983e123233d0b4c53cf1e9fbd8d5b7daf5a706e8863a089c9be919bfb3310a4871efe6b85821176191a",
+                "token_type": "normal",
+                "user_id": "3d26ea7efe3949138c3837c8fb0a2bfb"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://i4inijpw9n55l2s7dx96m4vp9bqzi00u.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-09-11T17:06:51.313382+00:00",
+                "id": "cc5da693886d46fca7441211015addf0",
+                "jwt_key": "c0fc24a892c70d5e73b7f97e4fc98f72f2aa88654d11159cf19fbd4c5fbe04f1a5b64825c1762ecd6ffff808942e31c9d68d0014bb7db2bcbb1ae60cf6b5d46e",
+                "last_used_at": "2019-09-11T19:01:10.580317+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "77123caa181bed2ead024121e954e72c7944f97307076f432147557a43b0f74c7ad741217b9f5aae6a80ad060df62861de56e69f89443a98e31627d6411fa9d2",
+                "token_type": "normal",
+                "user_id": "3d26ea7efe3949138c3837c8fb0a2bfb"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://i4inijpw9n55l2s7dx96m4vp9bqzi00u.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-09-11T19:02:01.204572+00:00",
+                "id": "0ff7103c856e4f6381c007a2a5ae6e25",
+                "jwt_key": "d38502062598e411a96677b3226ec16d1ecbeb3e272c132e1cceba393700be22fb2af7c34c74ef53f04f940e8bdb76efa7fed4e8690af013b4705b9887fc9eaf",
+                "last_used_at": "2019-09-15T22:13:29.284558+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "584d258dc3e3bb7a89940bf79a3bab09bc8df41e537fae44daa71831407cef4f2843e3b09b1dd180c4edb058dfd1ee7b35e342b2286ab779c50a6c0a6d8f11ca",
+                "token_type": "normal",
+                "user_id": "3d26ea7efe3949138c3837c8fb0a2bfb"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://i4inijpw9n55l2s7dx96m4vp9bqzi00u.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-09-12T08:39:36.905936+00:00",
+                "id": "f6a11871cc2f4fceb3d55a9c50cd57be",
+                "jwt_key": "0d845c270a27a705db46a33c27c23259c558de0fee2220bee9fd8de0e72c4d6068a0a3648eb6a1f076704095a48632b1e0a55d1793816371d47d919f8a1b7f8e",
+                "last_used_at": "2019-09-21T20:02:28.676112+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "a369701efc83399f04c4ddf8729fd7a287667a511a288547a720cac8f35a04959f54eb87f659176e30ef61a36e01f844184eb962495d9aa935a40b1b33ebb919",
+                "token_type": "normal",
+                "user_id": "3d26ea7efe3949138c3837c8fb0a2bfb"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://i4inijpw9n55l2s7dx96m4vp9bqzi00u.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-09-19T17:05:37.770601+00:00",
+                "id": "57aebe713c17463ea34ca28c608f38d5",
+                "jwt_key": "ca4ce18c154864efc09777688bcb89e02dacb78b7d1eac6fd666aeffdfa5833e336567ae3597573464fa0842a4c29f2b426414b4a7e1c2edad52cb7efb5e22e1",
+                "last_used_at": "2019-09-19T17:05:37.770948+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "d15019b5cc565fbe0332a9214a11a8e3c0ca18a2061fe6131ce04249cad537718e9f363a0add8065e8d897dd64ec88158257b73049d2863e2ee08ca522e56391",
+                "token_type": "normal",
+                "user_id": "3d26ea7efe3949138c3837c8fb0a2bfb"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://i4inijpw9n55l2s7dx96m4vp9bqzi00u.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-09-15T10:31:09.645811+00:00",
+                "id": "cd818177b9b7406287bff44a379bbe4a",
+                "jwt_key": "8e6484c1fa64043a60c6098096e872ed248d85ff6e36a71de9fe484c3a19842455bae1d47406074b2231b5f2739f48e54c4466de4473295d04a121e4cea8e3fd",
+                "last_used_at": "2019-09-15T10:31:09.646150+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "66c4be71bf024f82e46ef2e3791a85f4b6470ed820ac9fd688735ad5497b494abee6daa37018a71681c93075d4e64940b3e0aeda481b74263d1b6a8bdbd405d7",
+                "token_type": "normal",
+                "user_id": "dd9a773d4a3548a6bd1d6635d41e26c4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": null,
+                "created_at": "2019-09-20T13:59:56.891116+00:00",
+                "id": "6f1a4e726b934393a5ada7968fff579b",
+                "jwt_key": "675fa6dad4111144516d8b8eb8de8c51b1a18aaaf476687ecbb9856554f87511b320a96641513558731421937196ba325505cbad406954033ce1695d5f7eba8a",
+                "last_used_at": null,
+                "last_used_ip": null,
+                "token": "401ea721cfea34fac21fbf9ea03d825ee2afda2e875be6b2baab043c9d3ac9b995aa192bc31e7ba051b3e11ee0cca44f8dad297000877c80a31f8e0da0d3cbc5",
+                "token_type": "system",
+                "user_id": "dcfebe13ac414b04acf33857a7eeb39c"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "aa4d90b2705d42e1b27fd47258729a1c",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Home Assistant Cloud",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "d4fb7a5683fa426585f7909c1455b2dd",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Hass.io",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "3d26ea7efe3949138c3837c8fb0a2bfb",
+                "is_active": true,
+                "is_owner": true,
+                "name": "Noel Lowry",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "dd9a773d4a3548a6bd1d6635d41e26c4",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Laura",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "dcfebe13ac414b04acf33857a7eeb39c",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Home Assistant Cast",
+                "system_generated": true
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

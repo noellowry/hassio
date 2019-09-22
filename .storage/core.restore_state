@@ -1,0 +1,63 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-09-22T17:18:25.006892+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Noel Lowry",
+                    "id": "5264c335350c4cb48ff714684746e15d",
+                    "user_id": "3d26ea7efe3949138c3837c8fb0a2bfb"
+                },
+                "context": {
+                    "id": "52524accc02a49ebbe22c4eff89e5539",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.noel_lowry",
+                "last_changed": "2019-09-20T13:59:57.813727+00:00",
+                "last_updated": "2019-09-20T14:00:05.639269+00:00",
+                "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2019-09-22T17:18:25.006892+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Enable Arlo upon HA start'",
+                    "last_triggered": "2019-09-20T14:00:05.707256+00:00"
+                },
+                "context": {
+                    "id": "862711f401a8476d94ff2b1fd0474680",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.enable_arlo_upon_ha_start",
+                "last_changed": "2019-09-20T13:59:57.815282+00:00",
+                "last_updated": "2019-09-20T14:00:05.707985+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-09-22T17:18:25.006892+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Turn Lights On at Sunset",
+                    "id": "1568221947523",
+                    "last_triggered": "2019-09-21T17:39:47.037734+00:00"
+                },
+                "context": {
+                    "id": "cac3c8cb8cff44b3a7b7022f6da00c42",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_lights_on_at_sunset",
+                "last_changed": "2019-09-20T13:59:57.816964+00:00",
+                "last_updated": "2019-09-21T17:39:47.038371+00:00",
+                "state": "on"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

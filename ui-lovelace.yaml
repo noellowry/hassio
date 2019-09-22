@@ -1,0 +1,131 @@
+title: My Awesome Home
+# Include external resources
+resources:
+  - url: /local/my-custom-card.js
+    type: js
+  - url: /local/my-webfont.css
+    type: css
+
+# Optional background for all views. Check https://developer.mozilla.org/en-US/docs/Web/CSS/background for more examples.
+background: center / cover no-repeat url("/background.png") fixed
+
+views:
+    # View tab title.
+  - title: Ballybrit
+    # Unique path for direct access /lovelace/${path}
+    path: example
+    # Optional background (overwrites the global background).
+    background: radial-gradient(crimson, skyblue)
+    # Each view can have a different theme applied. Theme should be defined in the frontend.
+    theme: dark-mode
+    # The cards to show on this view.
+    cards:
+        # The filter card will filter entities for their state
+      - type: entity-filter
+        entities:
+          - device_tracker.paulus
+          - device_tracker.anne_there
+        state_filter:
+          - 'home'
+        card:
+            type: glance
+            title: Glance card sample
+            entities:
+              - light.hall_main_candle_1
+              - light.hall_main_candle_2
+              - light.hallway_kitchen
+              - light.hallway_bedroom
+
+        # The picture entity card will represent an entity with a picture
+      - type: picture-entity
+        image: https://www.home-assistant.io/images/default-social.png
+        entity: light.hallway_kitchen
+
+      - type: light
+        entity: light.porch_candle
+      
+      - type: light
+        entity: light.outside_back_gate
+        
+      - type: entities
+        # Title of the entities card
+        title: Lights
+        # The entities here will be shown in the same order as specified.
+        # Each entry is an entity ID or a map with extra options.
+        entities:
+          - light.bathroom_2
+          - light.ensuite
+          - light.hall_main_candle_1
+          - light.hall_main_candle_2
+          - light.hallway_bedroom
+          - light.hallway_kitchen
+          - light.hue_lightstrip_plus_1
+          - light.hue_lightstrip_plus_2
+          - light.hue_white_lamp_1
+          - light.kettle_lightstrip
+          - light.kitchen_cooker
+          - light.kitchen_fridge
+          - light.kitchen_window_lightstrip
+          - light.main_bedroom
+          - light.outside_back_gate
+          - light.porch_candle
+          - light.spare_bedroom_2
+          - light.utility_2
+          - entity: light.living_room
+            # Override the name to use
+            name: LR Lights    
+            
+      - type: conditional
+        conditions:
+          - entity: light.outside_back_gate
+            state: "on"
+        card:
+          type: entities
+          entities:
+            - device_tracker.demo_paulus
+            - cover.kitchen_window
+            - group.kitchen
+            - lock.kitchen_door
+            - light.bed_light
+            
+      - type: entities
+        title: Entities card sample
+        show_header_toggle: true
+        entities:
+          - type: call-service
+            icon: mdi:power
+            name: Outside light
+            action_name: Toggle light
+            service: light.toggle
+            service_data:
+              entity_id: light.outside_back_gate
+          - type: divider
+          - type: weblink
+            name: Home Assistant
+            url: https://www.home-assistant.io/
+            icon: mdi:home-assistant            
+        
+    # Specify a tab icon if you want the view tab to be an icon.
+  - icon: mdi:home-assistant
+    # Title of the view. Will be used as the tooltip for tab icon
+    title: Second view
+    cards:
+        # Entities card will take a list of entities and show their state.
+      - type: entities
+        # Title of the entities card
+        title: Example
+        # The entities here will be shown in the same order as specified.
+        # Each entry is an entity ID or a map with extra options.
+        entities:
+          - light.kitchen
+          - entity: light.living_room
+            # Override the name to use
+            name: LR Lights
+
+        # The markdown card will render markdown text.
+      - type: markdown
+        title: Lovelace
+        content: >
+          Welcome to your **Lovelace UI**.
+          
+

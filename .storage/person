@@ -1,0 +1,14 @@
+{
+    "data": {
+        "persons": [
+            {
+                "device_trackers": [],
+                "id": "5264c335350c4cb48ff714684746e15d",
+                "name": "Noel Lowry",
+                "user_id": "3d26ea7efe3949138c3837c8fb0a2bfb"
+            }
+        ]
+    },
+    "key": "person",
+    "version": 1
+}

@@ -1,0 +1,553 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": "9b85db3393a34d71a9f276f6f8e14b5a",
+                "config_entries": [
+                    "ce77a379119c40d9a91c950cb6eae960"
+                ],
+                "connections": [],
+                "id": "4dbb71d74c104ff7922a762cf1160222",
+                "identifiers": [
+                    [
+                        "cast",
+                        "ab1649bed7344715e5d99641023cd7f1"
+                    ]
+                ],
+                "manufacturer": "Unknown manufacturer",
+                "model": "Google Home Mini",
+                "name": "Study speaker",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "ce77a379119c40d9a91c950cb6eae960"
+                ],
+                "connections": [],
+                "id": "151dcc7bd0a34879a21aa361e72e5818",
+                "identifiers": [
+                    [
+                        "cast",
+                        "adbf3d6500e3f51dccfc14317eed275b"
+                    ]
+                ],
+                "manufacturer": "Unknown manufacturer",
+                "model": "Google Home",
+                "name": "Kitchen speaker",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "ce77a379119c40d9a91c950cb6eae960"
+                ],
+                "connections": [],
+                "id": "ba01f393031c48bab50b48e8dfd94025",
+                "identifiers": [
+                    [
+                        "cast",
+                        "f408b22caaaeab89e2dd182ac4ce812e"
+                    ]
+                ],
+                "manufacturer": "Unknown manufacturer",
+                "model": "Google Home Mini",
+                "name": "Spare Bedroom speaker",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "3e66ec98d7ff4e76abba5adaf6f44636",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:41:2d:c1"
+                    ]
+                ],
+                "id": "66a6ceca5e734e6f88a44153ba0472ad",
+                "identifiers": [
+                    [
+                        "hue",
+                        "001788FFFE412DC1"
+                    ]
+                ],
+                "manufacturer": "Signify",
+                "model": "BSB002",
+                "name": "Philips hue",
+                "name_by_user": null,
+                "sw_version": "1934058060",
+                "via_device_id": null
+            },
+            {
+                "area_id": "3e66ec98d7ff4e76abba5adaf6f44636",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "029ea65cd1344f1795634b64e8952c93",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:02:dc:12"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue motion sensor",
+                "name": "Motion Sensor",
+                "name_by_user": null,
+                "sw_version": "6.1.1.27575",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "3e66ec98d7ff4e76abba5adaf6f44636",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "45a8b28a07074f69a2bcdcd4bbd81661",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:71:91:3b-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color lamp",
+                "name": "Hallway Kitchen",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "9f4ca8f842684160b05223fab8efdf04",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "27a8e24d8d61477093bef54f262ad26b",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:03:88:ef:0d-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color candle",
+                "name": "Porch Candle",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "33f0d95f4a6f43d99fd879dc6754a475",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "269a20dc85d64da6993e2c148e3caa49",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:86:7f:52-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue white lamp",
+                "name": "Outside Back Gate",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "3e66ec98d7ff4e76abba5adaf6f44636",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "556c8344130f4cb2a8dd1f762e8e4a1f",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:04:19:10:8c-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color candle",
+                "name": "Hallway Main Candle 1",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "cb12bd811321429e957c614f421630f3",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "c9a6ea33192544738a03f092945a4402",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:79:38:01-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color lamp",
+                "name": "Kitchen Cooker",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "466e115e889a45a8b480243398900cbb",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "d0cb7e0d93c141f3a4fac7d176b82c4f",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:04:2b:e8:b3-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue ambiance lamp",
+                "name": "Main Bedroom Ensuite",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "6071e0ab2ec64359a8e4cc7a82fd7e0b",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "6eb30ffeea4d44c6ac07e3767ccf9cb4",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:6c:bc:78-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue white lamp",
+                "name": "Sitting Room Main",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "71f9014efb8a41a6a3021163ad09cd25",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:00:1f:36:0f-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue iris",
+                "name": "Hue iris 1",
+                "name_by_user": null,
+                "sw_version": "5.105.1.21778",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "6071e0ab2ec64359a8e4cc7a82fd7e0b",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "8402b5f8c83c41ffa14fc46fc6b0fd46",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:04:e1:3f:eb-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue ambiance lamp",
+                "name": "Utility",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "cb12bd811321429e957c614f421630f3",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "07623cf3bdf748e8aeccf8ed66ad0420",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:03:64:9e:b5-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue lightstrip plus",
+                "name": "Kitchen Kettle Lightstrip",
+                "name_by_user": null,
+                "sw_version": "5.127.1.26420",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "3e66ec98d7ff4e76abba5adaf6f44636",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "9527a12bfbf1480f9b1e643bf437e44f",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:73:95:c8-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color lamp",
+                "name": "Hallway Bedroom",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "cb12bd811321429e957c614f421630f3",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "ba6bbb9a495f455d9bcacd9b1a4040ff",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:ae:40:f4-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue lightstrip plus",
+                "name": "Skyloft Hue lightstrip plus 2",
+                "name_by_user": null,
+                "sw_version": "5.105.0.21169",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "cb12bd811321429e957c614f421630f3",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "d7ea5a4785044957b39830460f74f8e7",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:9c:ff:26-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue lightstrip plus",
+                "name": "Kitchen Window Lightstrip",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "3e9f557f639540a4a8b026fb25edb5b3",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "88237da7f8804933801c99d3ad58eb34",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:73:99:10-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color lamp",
+                "name": "Main Bedroom",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "cb12bd811321429e957c614f421630f3",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "4b455f25fb514bd0aed44e75f08b0a72",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:7a:d8:32-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color lamp",
+                "name": "Kitchen Fridge",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "f017f1ba05e949cb9485dd960f431d1a",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "c91cc67479aa4d518f56a2b9a52194de",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:04:e1:45:01-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue ambiance lamp",
+                "name": "Bathroom",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "cb12bd811321429e957c614f421630f3",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "2e78c5330e634fd288cd5c23c20bcb74",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:9c:89:35-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue lightstrip plus",
+                "name": "Skyloft Hue lightstrip plus 1",
+                "name_by_user": null,
+                "sw_version": "1.29.0_r21169",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "9348fb93a7e24fa9bcf3abb28b49bd17",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "8e3d89483c5f4aedb97eb5780e94bcc6",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:04:e3:15:88-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color lamp",
+                "name": "Spare Bedroom",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": "3e66ec98d7ff4e76abba5adaf6f44636",
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "83c601a505c8422282b1c66abb2a62f0",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:04:25:36:e5-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color candle",
+                "name": "Hallway Main Candle 2",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "4611eec762d14fa0928f1c261bc59d03",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:01:17:f8:3c-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue go",
+                "name": "Hue go 1",
+                "name_by_user": null,
+                "sw_version": "5.38.3.19141",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "ce77a379119c40d9a91c950cb6eae960"
+                ],
+                "connections": [],
+                "id": "2fe086322ec94280b0e678bc12b47ecc",
+                "identifiers": [
+                    [
+                        "cast",
+                        "eb63b3ec62cd95214ceeb185a1dddbaa"
+                    ]
+                ],
+                "manufacturer": "Onkyo And Pioneer",
+                "model": "Onkyo VC-GX30",
+                "name": "Hallway",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "30484dfe21534c61a1eec216ee8fd2b1"
+                ],
+                "connections": [],
+                "id": "bc60af8f60cb4f80bb750d35f3f8a3c9",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:04:2d:e3:88-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue outdoor wall",
+                "name": "Hue outdoor wall 1",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

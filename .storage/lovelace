@@ -1,0 +1,240 @@
+{
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "badges": [
+                        "binary_sensor.updater",
+                        "binary_sensor.remote_ui",
+                        "binary_sensor.back_door_xiaomi_aqara_door_sensor_contact",
+                        "binary_sensor.aeon_multisensor_6_motion",
+                        "binary_sensor.aeotec_door_window_sensor_6_contact",
+                        "binary_sensor.front_sliding_door_sensor_contact",
+                        "binary_sensor.kitchen_motion",
+                        "binary_sensor.gate_sensor_contact",
+                        "binary_sensor.study_xiaomi_aqara_motion_sensor_motion",
+                        "binary_sensor.aeon_multisensor_6_tamper",
+                        "binary_sensor.motion_sensor_motion_2",
+                        "binary_sensor.arrival_sensor_presence",
+                        "binary_sensor.xiaomi_leak_sensor_water",
+                        "binary_sensor.porch_motion",
+                        "binary_sensor.back_sliding_multipurpose_sensor_contact",
+                        "binary_sensor.noel_lowry_s_galaxy_s6_edge_presence",
+                        "binary_sensor.side_motion",
+                        "binary_sensor.back_sliding_multipurpose_sensor_acceleration",
+                        "person.noel_lowry",
+                        "sensor.aeon_multisensor_6_illuminance",
+                        "sensor.temp_sitting_room_relative_humidity_measurement",
+                        "sensor.aeon_multisensor_6_relative_humidity_measurement",
+                        "sensor.temp_sitting_room_temperature_measurement",
+                        "sensor.aeon_multisensor_6_temperature_measurement",
+                        "sensor.side_battery",
+                        "sensor.back_sliding_multipurpose_sensor_battery",
+                        "sensor.aeon_multisensor_6_ultraviolet_index",
+                        "sensor.back_sliding_multipurpose_sensor_temperature_measurement",
+                        "sensor.back_door_xiaomi_aqara_door_sensor_battery",
+                        "sensor.back_sliding_multipurpose_sensor_x_coordinate",
+                        "sensor.temp_skyloft_battery",
+                        "sensor.back_sliding_multipurpose_sensor_y_coordinate",
+                        "sensor.temp_skyloft_relative_humidity_measurement",
+                        "sensor.back_sliding_multipurpose_sensor_z_coordinate",
+                        "sensor.temp_skyloft_temperature_measurement",
+                        "sensor.front_sliding_door_sensor_battery",
+                        "sensor.temp_spare_bedroom_relative_humidity_measurement",
+                        "sensor.kitchen_battery",
+                        "sensor.kitchen_lqi_signal_strength",
+                        "sensor.aeon_multisensor_6_power_source",
+                        "sensor.arrival_sensor_rssi_signal_strength",
+                        "sensor.porch_rssi_signal_strength",
+                        "sensor.manual_magic_cube_battery",
+                        "sensor.temp_hallway_battery",
+                        "sensor.manual_magic_cube_x_coordinate",
+                        "sensor.temp_hallway_relative_humidity_measurement",
+                        "sensor.manual_magic_cube_y_coordinate",
+                        "sensor.temp_hallway_temperature_measurement",
+                        "sensor.manual_magic_cube_z_coordinate",
+                        "sensor.study_xiaomi_aqara_motion_sensor_battery",
+                        "sensor.temp_kitchen_battery",
+                        "sensor.study_xiaomi_aqara_motion_sensor_illuminance",
+                        "sensor.temp_kitchen_relative_humidity_measurement",
+                        "sensor.side_lqi_signal_strength",
+                        "sensor.temp_kitchen_temperature_measurement",
+                        "sensor.aeon_multisensor_6_battery",
+                        "sensor.motion_sensor_battery",
+                        "sensor.arrival_sensor_lqi_signal_strength",
+                        "sensor.side_rssi_signal_strength",
+                        "sensor.temp_spare_bedroom_battery",
+                        "sensor.xiaomi_leak_sensor_battery",
+                        "sensor.temp_spare_bedroom_temperature_measurement",
+                        "sensor.arrival_sensor_battery",
+                        "sensor.porch_lqi_signal_strength",
+                        "sensor.motion_sensor_temperature_measurement",
+                        "sensor.kitchen_rssi_signal_strength",
+                        "sensor.aeotec_door_window_sensor_6_battery",
+                        "sensor.gate_sensor_battery",
+                        "sensor.porch_battery",
+                        "sensor.temp_sitting_room_battery",
+                        "sun.sun"
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                "sensor.motion_sensor_temperature",
+                                "sensor.motion_sensor_light_level",
+                                "binary_sensor.motion_sensor_motion",
+                                "light.porch_candle"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Hallway",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.kitchen_window_lightstrip",
+                                "light.kitchen_fridge",
+                                "light.hue_lightstrip_plus_1",
+                                "light.spare_bedroom_2"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Kitchen",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.main_bedroom"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Main Bedroom",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "media_player.study_speaker",
+                            "type": "media-control"
+                        },
+                        {
+                            "entities": [
+                                "light.utility_2"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Utility",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "automation.turn_lights_on_at_sunset"
+                            ],
+                            "title": "Automation",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.kitchen_cooker",
+                                "light.hallway_kitchen",
+                                "light.hallway_bedroom",
+                                "light.hue_go_1",
+                                "light.hue_white_lamp_1",
+                                "light.outside_back_gate",
+                                "light.kettle_lightstrip",
+                                "light.bathroom_2",
+                                "light.ensuite",
+                                "light.hue_lightstrip_plus_2",
+                                "light.hue_iris_1",
+                                "light.hall_main_candle_1",
+                                "light.hall_main_candle_2",
+                                "light.xmasactivegroupeven",
+                                "light.christmas",
+                                "light.group_for_wakeup",
+                                "light.porch",
+                                "light.bedroom",
+                                "light.spare_bedroom",
+                                "light.hgrp_0268435200",
+                                "light.living_room",
+                                "light.garden",
+                                "light.skyloft",
+                                "light.utility",
+                                "light.bathroom",
+                                "light.hall_bed",
+                                "light.kitchen",
+                                "light.skyloft_2",
+                                "light.entertainment_area_1",
+                                "light.hallway",
+                                "light.xmasactivegroup",
+                                "light.xmasactivegroupodd",
+                                "light.hallway_near",
+                                "light.hue_iris_1_2",
+                                "light.hue_lightstrip_plus_2_2",
+                                "light.hue_color_candle_2",
+                                "light.hue_ambiance_lamp_2",
+                                "light.kettle_lightstrip_2",
+                                "light.hallway_far",
+                                "light.kitchen_window_lightstrip_2",
+                                "light.kitchen_cooker_2",
+                                "light.hue_color_candle_3",
+                                "light.hue_color_candle_1",
+                                "light.outside_back_gate_2",
+                                "light.hue_ambiance_lamp_1",
+                                "light.kitchen_fridge_2",
+                                "light.main_bedroom_2",
+                                "light.hue_white_lamp_1_2",
+                                "light.spare_bedroom_3",
+                                "light.hue_ambiance_lamp_3",
+                                "light.hue_lightstrip_plus_1_2",
+                                "light.hue_go_1_2"
+                            ],
+                            "title": "Light",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "media_player.study_group",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.kitchen_speaker",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.spare_bedroom_speaker",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.home_group",
+                            "type": "media-control"
+                        },
+                        {
+                            "entities": [
+                                "scene.party"
+                            ],
+                            "title": "Scene",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "switch.lightwaverf",
+                                "switch.kitchen",
+                                "switch.bedroom_speaker",
+                                "switch.outside_lights",
+                                "switch.side",
+                                "switch.outlet",
+                                "switch.fountain",
+                                "switch.kitchen_speaker",
+                                "switch.porch"
+                            ],
+                            "title": "Switch",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "weather.home",
+                            "type": "weather-forecast"
+                        }
+                    ],
+                    "panel": false,
+                    "path": "default_view",
+                    "title": "Home"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

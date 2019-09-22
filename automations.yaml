@@ -1,0 +1,21 @@
+- id: '1568221947523'
+  alias: Turn Lights On at Sunset
+  trigger:
+  - event: sunset
+    offset: '-1:00'
+    platform: sun
+  condition: []
+  action:
+  - data:
+      entity_id: all
+    service: light.turn_on
+
+#automation.yaml
+- alias: Enable Arlo upon HA start'
+  initial_state: 'on'
+  trigger:
+    platform: homeassistant
+    event: start
+  action:
+    service: camera.enable_motion_detection
+    entity_id: camera.arlo_frontdoor

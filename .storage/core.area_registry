@@ -1,0 +1,56 @@
+{
+    "data": {
+        "areas": [
+            {
+                "id": "37ceca1f4578488dae06e1ae09826dfb",
+                "name": "Living Room"
+            },
+            {
+                "id": "cb12bd811321429e957c614f421630f3",
+                "name": "Kitchen"
+            },
+            {
+                "id": "9348fb93a7e24fa9bcf3abb28b49bd17",
+                "name": "Spare Bedroom"
+            },
+            {
+                "id": "9b85db3393a34d71a9f276f6f8e14b5a",
+                "name": "Study"
+            },
+            {
+                "id": "3e9f557f639540a4a8b026fb25edb5b3",
+                "name": "Main Bedroom"
+            },
+            {
+                "id": "3e66ec98d7ff4e76abba5adaf6f44636",
+                "name": "Hallway"
+            },
+            {
+                "id": "6071e0ab2ec64359a8e4cc7a82fd7e0b",
+                "name": "Utility"
+            },
+            {
+                "id": "9f4ca8f842684160b05223fab8efdf04",
+                "name": "Porch"
+            },
+            {
+                "id": "466e115e889a45a8b480243398900cbb",
+                "name": "Main Bedroom En-Suite"
+            },
+            {
+                "id": "2b5bfcdeb6624717a89d42220c786a46",
+                "name": "Skyloft"
+            },
+            {
+                "id": "33f0d95f4a6f43d99fd879dc6754a475",
+                "name": "Outside"
+            },
+            {
+                "id": "f017f1ba05e949cb9485dd960f431d1a",
+                "name": "Bathroom"
+            }
+        ]
+    },
+    "key": "core.area_registry",
+    "version": 1
+}
