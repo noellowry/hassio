@@ -84,16 +84,16 @@
             {
                 "connection_class": "cloud_push",
                 "data": {
-                    "access_token": "6fbc069f-32ea-4d40-8630-2c557390ed4c",
-                    "app_id": "33a109cd-45d7-4dc0-a5bb-956299f1ea08",
-                    "client_id": "a3ce5fd4-183a-4ceb-ade6-da652d794655",
-                    "client_secret": "e1327079-e207-4e54-b54e-b22fdf0c8ff2",
-                    "installed_app_id": "c081a73b-9c08-45d1-b581-1b4d394a070d",
+                    "access_token": "332faa04-f913-4701-9068-a5ee614d1e91",
+                    "app_id": "481b3533-70ba-4442-a5fe-84122f57647c",
+                    "client_id": "8224ea97-56bf-4ab3-967a-037d7674ea4e",
+                    "client_secret": "b151e5a7-d3d6-4a23-8668-c8cb836bf43f",
+                    "installed_app_id": "a0f1dbdd-2fb1-4a72-846c-0018b64fb1ea",
                     "location_id": "bd7d8850-a974-4735-8280-4daac6c96592",
-                    "refresh_token": "db9b9c59-5e10-4f11-baef-f5aa750199e8"
+                    "refresh_token": "0ff71102-19c8-4f9a-8968-e6d3232a3f1f"
                 },
                 "domain": "smartthings",
-                "entry_id": "7bf902cc53b744b483a7885fe456644a",
+                "entry_id": "401bd431929c482f9aa46443dcb1f548",
                 "options": {},
                 "source": "user",
                 "system_options": {

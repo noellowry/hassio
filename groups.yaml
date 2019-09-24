@@ -1,0 +1,224 @@
+#
+# Groups that are views
+#
+default_view:
+    view: yes
+    icon: mdi:home
+    entities:
+        - group.detectors
+        - group.groundfloor
+        - group.topfloor
+        - group.outdoor
+        - group.weather_and_sun
+        - group.garage_group
+        - group.laundry_room
+        - group.aquarium
+
+forecast:
+    view: yes
+    icon: mdi:weather-partlycloudy
+    entities:
+        - weather.smhi_home
+links:
+    view: yes
+    icon: mdi:web
+    entities:
+        - weblink.grafana
+        - weblink.charts
+
+media:
+    view: yes
+    icon: mdi:disc-player
+    entities:
+        - media_player.squeezebox_radio
+        - media_player.kitchen
+        - media_player.vardagsrum
+        - media_player.sovrum
+
+cams:
+    view: yes
+    icon: mdi:cctv
+    entities:
+        - camera.outdoor2
+        - camera.rpi
+        - camera.aqua_cam
+
+computers_stat:
+    view: yes
+    icon: mdi:desktop-classic
+    entities:
+        - group.raspberrypi3_group
+        - group.raspberrypi2_group
+        - group.raspberrypi32_group
+        - sensor.ssl_cert_expiry
+        - sensor.speedtest_download
+        - sensor.speedtest_upload
+        - sensor.speedtest_ping
+
+automation:
+    view: yes
+    icon: mdi:home-automation
+    entities:
+        - group.automation_garden_group
+        - group.automation_indoor_group
+        - group.automation_garage_group
+
+telldus:
+    view: yes
+    icon: mdi:flash
+    name: Telldus
+    entities:
+        - switch.telldus_1
+        - switch.telldus_2
+        - switch.aquarium_light
+
+#
+# Groups that are not views
+#
+
+laundry_room:
+    name: Laundry room
+    entities:
+        - sensor.laundry_temp
+        - sensor.laundry_humidity
+
+groundfloor:
+    name: Ground floor
+    entities:
+        - switch.window_lights_downstairs
+        - switch.wall_lights_downstairs
+        - sensor.ground_floor_temp
+        - sensor.ground_bathroom_temp
+        - sensor.hall_temperature
+        - sensor.ground_floor_humidity
+        - sensor.hall_humidity
+        - sensor.ground_bathroom_humidity
+        - media_player.squeezebox_radio
+
+aquarium:
+    name: Aquarium
+    entities:
+        - switch.aquarium_light
+        - camera.aqua_cam
+
+detectors:
+    name: Detectors
+    control: hidden
+    entities:
+        - sensor.door_last_opened
+        - sensor.porch_last_motion
+        - alarm_control_panel.husbyvagen_alarm
+        - sensor.entredorr_state
+        - sensor.altandorr_state
+
+topfloor:
+    name: Top floor
+    entities:
+        - switch.window_lights_upstairs
+        - switch.floor_light_upstairs
+        - sensor.top_floor_temp
+        - sensor.workroom_temp
+        - sensor.allrum_overvaning_temperature
+        - sensor.allrum_overvaning_humidity
+
+outdoor:
+    name: Outdoor
+    entities:
+        - switch.garden_lights
+        - light.outdoor_ceiling
+        - sensor.outdoor_temp
+        - sensor.garden_temp
+        - sensor.porch_temp
+        - sensor.outdoor_humidity
+        - sensor.top_floor_pressure
+
+indoor_lights:
+    name: Indoor lights
+    entities:
+        - switch.window_lights_downstairs
+        - switch.wall_lights_downstairs
+        - switch.window_lights_upstairs
+        - switch.floor_light_upstairs
+
+window_lights:
+    name: Window lights
+    entities:
+        - switch.window_lights_downstairs
+        - switch.window_lights_upstairs
+    
+weather_and_sun:
+    name: Sun, moon and weather (yr.no)
+    entities:
+        - sensor.date_time
+        - sensor.day_night
+        - sensor.sunset
+        - sensor.sunrise
+        - sensor.moon
+        - sensor.yr_temperature
+        - sensor.yr_humidity
+        - sensor.yr_pressure
+        - sensor.yr_wind_speed
+        - sensor.yr_wind_direction
+        - sensor.yr_cloudiness
+
+#family:
+#    name: Family
+#    entities:
+#	- device_tracker.lars_larsnexus
+#        - device_tracker.lars_larsiphone
+#        - device_tracker.lars_malteiphone
+#        - device_tracker.lars_mariasiphone
+
+garage_group:
+    name: Garage
+    entities:
+        - light.garage
+        - sensor.garage_temp
+        - sensor.garage_humidity
+
+automation_garden_group:
+    name: automation_garden
+    entities:
+        - automation.turn_on_garden_lights_when_sun_sets
+        - automation.turn_off_garden_lights_when_sun_rises
+
+automation_indoor_group:
+    name: automation_indoor
+    entities:
+#        - automation.turn_on_window_lights_at_sunset
+        - automation.turn_off_indoor_lights_at_night
+
+automation_garage_group:
+    name: automation_garage
+    entities:
+        - automation.turn_on_garage_lights_when_sun_sets
+        - automation.turn_off_garage_lights_when_sun_rises
+
+raspberrypi3_group:
+    name: Raspberry Pi 3
+    entities:
+        - sensor.rpi3_temperature
+        - sensor.rpi3_cpu_usage
+        - sensor.rpi3_memory_usage
+
+raspberrypi2_group:
+    name: Raspberry Pi 2
+    entities:
+        - sensor.rpi2_temperature
+        - sensor.rpi2_cpu_usage
+        - sensor.rpi2_memory_usage
+        - sensor.rpi2_downloadspeed
+
+raspberrypi32_group:
+    name: Raspberry Pi 32
+    entities:
+        - sensor.rpi32_temperature
+        - sensor.rpi32_cpu_usage
+        - sensor.rpi32_memory_usage
+
+tracker_group:
+    name: Tracker group
+    entities:
+        - device_tracker.user_iphone
+        - device_tracker.lars_nexus
+

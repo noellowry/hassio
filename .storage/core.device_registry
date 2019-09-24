@@ -527,7 +527,7 @@
                 "via_device_id": null
             },
             {
-                "area_id": null,
+                "area_id": "33f0d95f4a6f43d99fd879dc6754a475",
                 "config_entries": [
                     "30484dfe21534c61a1eec216ee8fd2b1"
                 ],
@@ -541,10 +541,530 @@
                 ],
                 "manufacturer": "Philips",
                 "model": "Hue outdoor wall",
-                "name": "Hue outdoor wall 1",
+                "name": "Floodlight",
                 "name_by_user": null,
                 "sw_version": "1.46.13_r26312",
                 "via_device_id": "66a6ceca5e734e6f88a44153ba0472ad"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "be280d0854ac4990bb4883d2a64a16d8",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "12d98e47-2b98-4e70-a9f1-e1b66bc20ea5"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Aeon Multisensor 6",
+                "name": "Aeon Multisensor 6",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "cb12bd811321429e957c614f421630f3",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "8283b1ffca414d74bf9be6481284dfb3",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "2a979502-a498-4b38-8fa1-11986da9f789"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Arlo Camera",
+                "name": "Kitchen",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "b1409396d72b44aa913a72638806e6a6",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "59ffbbe9-5007-458e-b133-8ec464d65da4"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Aqara Door/Window Sensor",
+                "name": "Gate Sensor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "0e29270be3f24cf7a9e3b49ccaac16b3",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "eb0ba38e-0b93-463b-9ab8-e1319c23d584"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Arlo Camera",
+                "name": "Porch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "9b85db3393a34d71a9f276f6f8e14b5a",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "f2871a05f2ef434c9374af79cb5c1dee",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "f27d9693-10cb-4bb4-8a71-adad540b9ffb"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Aqara Motion Sensor",
+                "name": "Study Xiaomi Aqara Motion Sensor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "cb12bd811321429e957c614f421630f3",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "631f922cc28b481fa7befb7c71d8cbcd",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "88fb87fe-eddc-4fd9-a0eb-878b0e4291f3"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Aqara Leak Sensor",
+                "name": "Xiaomi Leak Sensor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "cb12bd811321429e957c614f421630f3",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "641a4941d808400eb00009286f4c1f9d",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "769e24b5-dc75-47d5-89b7-4540533ec783"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "SmartSense Multi Sensor",
+                "name": "Back Sliding Multipurpose Sensor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "36bc0a5181c04c45818dfd6351149cd6",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "e10141c5-38eb-48b1-88ec-2c3d087690a4"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Z-Wave Door/Window Sensor",
+                "name": "Aeotec Door/Window Sensor 6",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "689a216319ea4fb8b49ef32fc5bcdebe",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "0770ba67-bd63-4637-8ec7-56f8e52e7a4d"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Arlo Camera",
+                "name": "Side",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "cb12bd811321429e957c614f421630f3",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "a97314cadc514221bb666119dbacd6f2",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "16180005-f4d7-417b-82ec-3c39ceea7554"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Aqara Door/Window Sensor",
+                "name": "Back Door Xiaomi Aqara Door Sensor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "9f4ca8f842684160b05223fab8efdf04",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "a08d10e6db4f4b639195b89577755a0b",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "8b566d05-3d7f-40e7-89a5-add708d339ba"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Aqara Door/Window Sensor",
+                "name": "Front Sliding Door Sensor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "75143de95efd4c40837315ebf7a8dbe8",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "e0f45b6f-32a9-4beb-96dd-22c72737ec8f"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "SmartSense Motion Sensor",
+                "name": "Motion Sensor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "36e2588b1d9b49e3b92068831e652153",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "ab77ea7e-3a09-493a-b900-496fceee4466"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Arrival Sensor",
+                "name": "Arrival Sensor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "18e6144f258f42ad8717d2316df6fce4",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "6888f1aa-29dd-4d99-a814-eb659dd5a041"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Mobile Presence",
+                "name": "Noel Lowry's Galaxy S6 edge",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "2b5bfcdeb6624717a89d42220c786a46",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "1dc8678589ab42668d00cd671d7202d3",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "1bac474d-9b98-4ffa-851a-e4c4f188a6cf"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Aqara Temperature Humidity Sensor",
+                "name": "Temp Skyloft",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "d8ea02821d61490588351be8929b8a79",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "bd8e9ea9-6b00-4374-b4bc-bdd57671ccd0"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Magic Cube Controller",
+                "name": "Manual Magic Cube",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "37ceca1f4578488dae06e1ae09826dfb",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "8480cff9cc96417d9ef70e8064983ad7",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "5dabfa23-bf41-44e6-91cc-39f9b284d05c"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Aqara Temperature Humidity Sensor",
+                "name": "Temp Sitting Room",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "e920b6eb0b044c39a89578d2fe4a5774",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "9c1f76c5-7a98-4c9e-8250-c886a826de51"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Aqara Temperature Humidity Sensor",
+                "name": "Temp Spare Bedroom",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "cb12bd811321429e957c614f421630f3",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "435ff5dd3ea44bf2880a489076db70e4",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "c2ea96b8-5e47-473a-8c12-2f54a3859ebc"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Aqara Temperature Humidity Sensor",
+                "name": "Temp Kitchen",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "3e66ec98d7ff4e76abba5adaf6f44636",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "be50086902f64bd784beaff5b8511027",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "ed03b383-52bd-48c7-ae2c-6c56a224d9d0"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Aqara Temperature Humidity Sensor",
+                "name": "Temp Hallway",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "9f4ca8f842684160b05223fab8efdf04",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "f1f99137e2cb470cb5ff9633c739cba8",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "88d621d3-f8d5-41e5-84d8-5188ecdfa765"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Z-Wave Metering Switch",
+                "name": "Fountain",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "33f0d95f4a6f43d99fd879dc6754a475",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "d8b27b3ece4c43c0951eb358fa01643c",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "428809e5-0b92-4e90-849c-b8b1d3d0feb7"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Z-Wave Metering Switch",
+                "name": "Outside Lights",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "c66dc3756d3d4821af0b169087f1fb84",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "e571f27d-a603-4dd9-9b4b-e2910b788633"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Lightwave Lights",
+                "name": "Lightwaverf",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "cb12bd811321429e957c614f421630f3",
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "43fbc42314ed41dca253978a03a1d1d8",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "16a5e214-81cd-49f7-90de-5e3a24b81e65"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "SmartPower Outlet",
+                "name": "Outlet",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "2c75715757844e91b7ed6b41e30f2b24",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "d50ae699-bf09-4681-a413-b010a329f683"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "cast-web-device",
+                "name": "Bedroom speaker",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "401bd431929c482f9aa46443dcb1f548"
+                ],
+                "connections": [],
+                "id": "2d38ebbc28084cfc90defd6f1e28a4ba",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "c7a1a7c2-2ca7-459a-81e8-10cbdf6f85a6"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "cast-web-device",
+                "name": "Kitchen speaker",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
             }
         ]
     },

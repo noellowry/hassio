@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2019-09-22T17:18:25.006892+00:00",
+            "last_seen": "2019-09-24T18:05:03.005709+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -10,50 +10,107 @@
                     "user_id": "3d26ea7efe3949138c3837c8fb0a2bfb"
                 },
                 "context": {
-                    "id": "52524accc02a49ebbe22c4eff89e5539",
+                    "id": "0cbecf920cb44bd993dc2fd081b76182",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.noel_lowry",
-                "last_changed": "2019-09-20T13:59:57.813727+00:00",
-                "last_updated": "2019-09-20T14:00:05.639269+00:00",
+                "last_changed": "2019-09-24T17:04:52.855953+00:00",
+                "last_updated": "2019-09-24T17:04:59.475944+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2019-09-22T17:18:25.006892+00:00",
+            "last_seen": "2019-09-24T18:05:03.005709+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "Enable Arlo upon HA start'",
-                    "last_triggered": "2019-09-20T14:00:05.707256+00:00"
+                    "friendly_name": "Fountain On",
+                    "id": "1569335631762",
+                    "last_triggered": "2019-09-24T14:45:37.490555+00:00"
                 },
                 "context": {
-                    "id": "862711f401a8476d94ff2b1fd0474680",
+                    "id": "dffe2dc302234dcdac2ed53d845a9fca",
                     "parent_id": null,
                     "user_id": null
                 },
-                "entity_id": "automation.enable_arlo_upon_ha_start",
-                "last_changed": "2019-09-20T13:59:57.815282+00:00",
-                "last_updated": "2019-09-20T14:00:05.707985+00:00",
+                "entity_id": "automation.fountain_on",
+                "last_changed": "2019-09-24T17:04:55.163382+00:00",
+                "last_updated": "2019-09-24T17:04:55.163382+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-09-22T17:18:25.006892+00:00",
+            "last_seen": "2019-09-24T18:05:03.005709+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Turn Lights On at Sunset",
                     "id": "1568221947523",
-                    "last_triggered": "2019-09-21T17:39:47.037734+00:00"
+                    "last_triggered": "2019-09-24T17:32:26.025744+00:00"
                 },
                 "context": {
-                    "id": "cac3c8cb8cff44b3a7b7022f6da00c42",
+                    "id": "4d545b16f81f4ccd85dc9ee024055c96",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.turn_lights_on_at_sunset",
-                "last_changed": "2019-09-20T13:59:57.816964+00:00",
-                "last_updated": "2019-09-21T17:39:47.038371+00:00",
+                "last_changed": "2019-09-24T17:04:55.166875+00:00",
+                "last_updated": "2019-09-24T17:32:26.026392+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-09-24T18:05:03.005709+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Fountain Off",
+                    "id": "1569336206494",
+                    "last_triggered": "2019-09-24T14:45:40.785849+00:00"
+                },
+                "context": {
+                    "id": "dccb58ccc5514c438ee1eb11bfcd3a23",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.fountain_off",
+                "last_changed": "2019-09-24T17:04:55.169543+00:00",
+                "last_updated": "2019-09-24T17:04:55.169543+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-09-24T14:33:58.682441+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Enable Arlo upon HA start'",
+                    "last_triggered": "2019-09-24T09:39:26.861368+00:00"
+                },
+                "context": {
+                    "id": "0d284cf0978642fda21f25021c509483",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.enable_arlo_upon_ha_start",
+                "last_changed": "2019-09-24T14:32:09.981631+00:00",
+                "last_updated": "2019-09-24T14:32:09.981631+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-09-24T14:42:52.291098+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "New Automation",
+                    "id": "1569335631762",
+                    "last_triggered": "2019-09-24T14:42:04.328104+00:00"
+                },
+                "context": {
+                    "id": "3fbf3c06ce85407ebd991d16e0a128be",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.new_automation",
+                "last_changed": "2019-09-24T14:41:58.893447+00:00",
+                "last_updated": "2019-09-24T14:42:04.328782+00:00",
                 "state": "on"
             }
         }

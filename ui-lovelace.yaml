@@ -49,45 +49,74 @@ views:
         
       - type: entities
         # Title of the entities card
-        title: Lights
+        title: Philips Hue
         # The entities here will be shown in the same order as specified.
         # Each entry is an entity ID or a map with extra options.
         entities:
           - light.bathroom_2
-          - light.ensuite
+          - light.hue_outdoor_wall_1
+          - light.hallway_bedroom
+          - light.hallway_kitchen          
           - light.hall_main_candle_1
           - light.hall_main_candle_2
-          - light.hallway_bedroom
-          - light.hallway_kitchen
-          - light.hue_lightstrip_plus_1
-          - light.hue_lightstrip_plus_2
-          - light.hue_white_lamp_1
-          - light.kettle_lightstrip
+          - light.hue_go_1
+          - light.hue_iris_1          
           - light.kitchen_cooker
           - light.kitchen_fridge
+          - light.kettle_lightstrip
           - light.kitchen_window_lightstrip
           - light.main_bedroom
-          - light.outside_back_gate
+          - light.ensuite
+          - light.outside_back_gate          
           - light.porch_candle
+          - light.hue_white_lamp_1
+          - light.hue_lightstrip_plus_1
+          - light.hue_lightstrip_plus_2
           - light.spare_bedroom_2
           - light.utility_2
+          - binary_sensor.motion_sensor_motion
           - entity: light.living_room
             # Override the name to use
-            name: LR Lights    
-            
-      - type: conditional
-        conditions:
-          - entity: light.outside_back_gate
-            state: "on"
-        card:
-          type: entities
-          entities:
-            - device_tracker.demo_paulus
-            - cover.kitchen_window
-            - group.kitchen
-            - lock.kitchen_door
-            - light.bed_light
-            
+            name: LR Lights  
+
+      - type: entities
+        # Title of the entities card
+        title: Motion Sensor
+        # The entities here will be shown in the same order as specified.
+        # Each entry is an entity ID or a map with extra options.
+        entities:
+          - binary_sensor.motion_sensor_motion
+
+      - type: entities
+        # Title of the entities card
+        title: SmartThings
+        # The entities here will be shown in the same order as specified.
+        # Each entry is an entity ID or a map with extra options.
+        entities:
+          - switch.fountain
+          - switch.outside_lights
+          - switch.outlet
+          - binary_sensor.noel_lowry_s_galaxy_s6_edge_presence
+          - binary_sensor.back_sliding_multipurpose_sensor_contact
+          - sensor.temp_hallway_temperature_measurement
+          - sensor.temp_kitchen_temperature_measurement
+          - sensor.temp_sitting_room_temperature_measurement
+          - sensor.temp_skyloft_temperature_measurement
+          - sensor.temp_spare_bedroom_temperature_measurement
+
+#      - type: conditional
+#        conditions:
+#          - entity: light.outside_back_gate
+#            state: "on"
+#        card:
+#          type: entities
+#          entities:
+#            - device_tracker.demo_paulus
+#            - cover.kitchen_window
+#            - group.kitchen
+#            - lock.kitchen_door
+#            - light.bed_light
+       
       - type: entities
         title: Entities card sample
         show_header_toggle: true
@@ -103,8 +132,71 @@ views:
           - type: weblink
             name: Home Assistant
             url: https://www.home-assistant.io/
-            icon: mdi:home-assistant            
+            icon: mdi:home-assistant  
+
+      - type: sensor
+        entity: sensor.temp_sitting_room_temperature_measurement
+        name: Sitting Room Temp
+        graph: line
+        unit: temperature  
+
+      - type: sensor
+        entity: sensor.temp_hallway_temperature_measurement
+        name: Hallway Temp
+        graph: line
+        unit: temperature
         
+      - type: sensor
+        entity: sensor.temp_kitchen_temperature_measurement
+        name: Kitchen Temp
+        graph: line
+        unit: temperature
+        
+      - type: sensor
+        entity: sensor.temp_skyloft_temperature_measurement
+        name: Skyloft Temp
+        graph: line
+        unit: temperature
+        
+      - type: sensor
+        entity: sensor.temp_spare_bedroom_temperature_measurement
+        name: Spare Bedroom Temp
+        graph: line
+        unit: temperature        
+
+      - type: entities
+        # Title of the entities card
+        show_header_toggle: false
+        title: Temperature
+        # The entities here will be shown in the same order as specified.
+        # Each entry is an entity ID or a map with extra options.
+        entities:
+          - type: sensor
+            entity: sensor.temp_sitting_room_temperature_measurement
+            name: Sitting Room Temp
+            graph: line
+            unit: temperature  
+          - type: sensor
+            entity: sensor.temp_hallway_temperature_measurement
+            name: Hallway Temp
+            graph: line
+            unit: temperature
+          - type: sensor
+            entity: sensor.temp_kitchen_temperature_measurement
+            name: Kitchen Temp
+            graph: line
+            unit: temperature
+          - type: sensor
+            entity: sensor.temp_skyloft_temperature_measurement
+            name: Skyloft Temp
+            graph: line
+            unit: temperature
+          - type: sensor
+            entity: sensor.temp_spare_bedroom_temperature_measurement
+            name: Spare Bedroom Temp
+            graph: line
+            unit: temperature
+            
     # Specify a tab icon if you want the view tab to be an icon.
   - icon: mdi:home-assistant
     # Title of the view. Will be used as the tooltip for tab icon

@@ -9,13 +9,24 @@
   - data:
       entity_id: all
     service: light.turn_on
-
-#automation.yaml
-- alias: Enable Arlo upon HA start'
-  initial_state: 'on'
+- id: '1569335631762'
+  alias: Fountain On
   trigger:
-    platform: homeassistant
-    event: start
+  - platform: webhook
+    webhook_id: fountain-switch-on
+  condition: []
   action:
-    service: camera.enable_motion_detection
-    entity_id: camera.arlo_frontdoor
+  - data:
+      entity_id: switch.fountain
+    service: switch.turn_on
+- id: '1569336206494'
+  alias: Fountain Off
+  trigger:
+  - platform: webhook
+    webhook_id: fountain-switch-off
+  condition: []
+  action:
+  - alias: ''
+    data:
+      entity_id: switch.fountain
+    service: switch.turn_off
